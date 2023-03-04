@@ -130,4 +130,5 @@ dmypy.json
 
 # data
 raw_data/
+working_data/
 test/
