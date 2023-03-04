@@ -56,3 +56,17 @@ venv\Scripts\activate.bat
 ```
 pip install -e ".[dev]"
 ```
+
+## Fetch the swaps, burns, and mints data
+
+```
+python script/fetch_swaps.py
+python script/fetch_burns.py
+python script/fetch_mints.py
+```
+
+## Generate the panel
+
+```
+python script/generate_panel.py
+```
